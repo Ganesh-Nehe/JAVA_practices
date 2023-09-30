@@ -1,6 +1,7 @@
 public class Program3 {
     public static void main(String[] args){
-        int num=10;
+        int n=4;
+        int num=n*(n+1)/2;
         for(int i=1;i<=4;i++){
             for(int j=1;j<=i;j++){
                 System.out.print(num + " ");
